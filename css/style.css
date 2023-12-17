@@ -90,21 +90,9 @@ nav a {
   border-bottom-color: var(--main-txt);
 }
 
-/* main content flexbox */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1 1 1;
-  justify-content: center;
-  padding-bottom: 30px;
-}
+/* Main content grid */
 
-.card {
-  object-fit: contain;
-}
+.grid-container {
+  display: grid;
   
-
-/*img */
-.img {
-  max-height: 300px;
 }
