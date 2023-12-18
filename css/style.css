@@ -1,5 +1,5 @@
 :root {
-  --main-txt: rgb(240,16,128);
+  --main-txt: #ff64b4;
 }
 * {
   box-sizing: border-box;
@@ -10,7 +10,7 @@ html, body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-color: skyblue;
+  background-color: #3e3d53;
 }
 
 h1,
@@ -72,8 +72,7 @@ nav a {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding-top: 5px ;
-  padding-bottom: 5px;
+  padding: 5px 0px;
 }
 
 .sub {
@@ -82,19 +81,33 @@ nav a {
   text-transform: uppercase;
 }
 
+.page-section p {
+  color: white;
+}
+
 .page-section a {
   text-decoration: none;
-  color: inherit;
+  color: white;
   font-size: 20px;
   border-bottom-style: solid;
   border-bottom-color: var(--main-txt);
+}
+
+.aboutme {
+  display: flex;
+}
+
+.aboutme-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Main content grid */
 
 .grid-container {
   display: grid;
-  margin: 0px 5px;
+  margin: 0px 10px;
   grid-auto-rows: 400px 400px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
